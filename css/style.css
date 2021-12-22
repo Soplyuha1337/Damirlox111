@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    min-width: 500px;
+}
+
+header{
+    background-color: #2A2A2A ;
+}
+
+header .menu  li{
+    padding-left: 145px;
+    
+}
+
+header .menu .nav-link{
+    display: flex;
+    font-size: 18px;
+    color: #E4E4E4 !important;
+    line-height: 21px;
+    border-bottom: 1px solid orange;
+}
+
+header .header-text h1{
+    color: #fff;
+}
+
+header .header-text h2{
+    color: #fff;
+    padding-top: 60px;
+    
+}
+
+header .header-text p{
+    color: #fff;
+}
+
+header .container img{
+    width: 100%;
+}
+
+header .header-text button{
+    background: orange;
+    border-radius: 6px;
+    padding: 14px 40px;
+    width: 200px;
+    height: 47px;
+    border: none;
+    margin-bottom: 9px;
+}
+
+section{
+    padding-top: 113px;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+
+section .section-box{
+    background: #2A2A2A;
+    border-radius: 29px;
+   
+    padding-top: 77px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+section .section-box h1{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+main {
+    background: #2A2A2A;
+    padding-bottom: 150px;
+    padding-top: 204px;
+}
+
+
+main h2{
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+main p{
+    color: #fff;
+}
+
+
+main img{
+    border-radius: 25px;
+}
+
+
+main .container .col-lg-6 button{
+    color: #E2A100;
+    border: none;
+    background: #2A2A2A;
+   
+    
+}
+
+main h3{
+    color: #fff;
+}
+
+
+
+main .container img{
+    width: 100%;
+}
+ 
+.main-slider{
+    background: #414141;
+    border-radius: 25px;
+    padding: 50px;
+    
+}
+
+footer{
+    background:#414141;
+    width: 100%;
+}
+
+
+
+
+
+footer ul li a{
+    text-decoration: none;
+    color: #E4E4E4;
+    padding-bottom: 28px;
+    display: flex;
+
+}
+
+footer ul{
+    padding-top: 50px;
+}
+
+footer ul li a:hover{
+    color: #E4E4E4;
+}
+
+
+footer .ultext li p{
+    color: #fff;
+    
+}
+ 
+footer .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+footer .arrow img{
+     width: 35%;
+     padding-left: 15px;
+}
+
+footer h3{
+    color: #fff;
+   font-size: 16px;
+    padding-top: 78px;
+}
+
+
+@media (max-width: 767px) {
+header .header-text h2 {
+    padding-top: 60px;
+}
+
+}
